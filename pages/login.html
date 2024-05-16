@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alta</title>
+    <title>no residente</title>
 </head>
 <body>
     <nav class="nav-menu">
@@ -16,28 +16,22 @@
             <button class="btn-s"><a href="../index.html">logout</a></button>
         </div>
     </nav>
-    <main class="main">
-        <div class="container-alta">
-            <h2>formulario de alta</h2>
-            <form action="" class="form-alta">
-                <label for="">nombre</label>
-                <input type="text" name="name" id="">
-                <label for="">apellido</label>
-                <input type="text" name="apellido" id="">
-                <label for="">email</label>
-                <input type="email" name="email" id="">
-                <label for="">password</label>
-                <input type="password" name="password" id="">
-                <label for="">confirm password</label>
-                <input type="password" name="confirm password" id="">
-                <label for="">codigo secreto</label>
-                <input type="text" name="codigo secreto" id="">
 
-                <button id="btn-alta" class="btn-m"><a href="./confirmacion_alta.html">confirmar alta</a></button>
-                <button id="popup-question" class="question" onclick="togglePopup()">?</button>
+
+
+    <main class="main">
+        <div class="container-turista">
+            <h2>identify</h2>
+            <form action="" class="form-turista">
+                <label for="">insert you Document</label>
+                <input type="tel" name="dni" id="">
+                <label for="">Password</label>
+                <input type="password" name="password" id="">
+                <button class="btn-m"><a href="./acess.html">tramitar</a></button>
+                <button class="btn-m"><a href="./alta.html">tramitar alta</a></button>
             </form>
         </div>
-    </main>         
+    </main>
 
 
 
@@ -60,12 +54,6 @@
             </div>
         </div>
     </footer>
-
-    <div class="popup-alta" id="popup">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, magnam!</p>
-        <button class="btn-s" onclick="hidePopup()">sair</button>
-    </div>
-    <script src="../js/script.js">
-    </script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
